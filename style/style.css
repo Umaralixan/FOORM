@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: monospace;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/misurina-sunset.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  width: 500px;
+  padding: 40px 40px;
+  height: 500px;
+  /* border: 1px solid red; */
+  box-shadow: black 20px -10px 20px 20px;
+}
+.h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Input {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  font-size: 20px;
+  color: grey;
+}
+.div {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+.forms__text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+.aaa {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+.akkaut {
+  width: 102%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  outline: none;
+  font-size: 20px;
+  background-color: rgb(82, 155, 10);
+  color: #fff;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.hr {
+  width: 100px;
+  height: 3px;
+  background-color: #fff;
+  border: none;
+}
+.text {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.btn {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.btn:first-child {
+  background-color: rgb(61, 61, 254);
+}
+.btn:nth-child(2) {
+  background-color: aqua;
+}
+.btn:last-child {
+  background-color: rgb(249, 60, 60);
+}
+.card__texts {
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+.aaaa {
+  color: gray;
+  font-size: 15px;
+  margin: 20px 0;
+}

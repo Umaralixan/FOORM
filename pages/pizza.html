@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Pizza Form</h1>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Personal Info</legend>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" /><br /><br />
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" /><br /><br />
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" /><br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Pizza</legend>
+        <p>Size:</p>
+        <input type="radio" id="small" name="size" value="small" />
+        <label for="small">Small</label><br />
+
+        <input type="radio" id="medium" name="size" value="medium" />
+        <label for="medium">Medium</label><br />
+
+        <input type="radio" id="large" name="size" value="large" />
+        <label for="large">Large</label><br /><br />
+
+        <p>Toppings (check all that apply):</p>
+        <input
+          type="checkbox"
+          id="extra_cheese"
+          name="toppings"
+          value="extra_cheese"
+        />
+        <label for="extra_cheese">Extra Cheese</label><br />
+
+        <input
+          type="checkbox"
+          id="pepperoni"
+          name="toppings"
+          value="pepperoni"
+        />
+        <label for="pepperoni">Pepperoni</label><br />
+
+        <input type="checkbox" id="sausage" name="toppings" value="sausage" />
+        <label for="sausage">Sausage</label><br />
+
+        <input
+          type="checkbox"
+          id="mushrooms"
+          name="toppings"
+          value="mushrooms"
+        />
+        <label for="mushrooms">Mushrooms</label><br />
+
+        <input
+          type="checkbox"
+          id="black_olives"
+          name="toppings"
+          value="black_olives"
+        />
+        <label for="black_olives">Black Olives</label><br />
+
+        <input
+          type="checkbox"
+          id="green_peppers"
+          name="toppings"
+          value="green_peppers"
+        />
+        <label for="green_peppers">Green Peppers</label><br />
+
+        <input type="checkbox" id="tomatos" name="toppings" value="tomatos" />
+        <label for="tomatos">Tomatos</label><br />
+
+        <input type="checkbox" id="onions" name="toppings" value="onions" />
+        <label for="onions">Onions</label><br />
+
+        <input
+          type="checkbox"
+          id="anchovies"
+          name="toppings"
+          value="anchovies"
+        />
+        <label for="anchovies">Anchovies</label><br /><br />
+      </fieldset>
+
+      <a href="../index.html">
+        <button type="submit">Enter my information</button>
+      </a>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.container {
+  background-image: url(../img/img__2.webp);
+  flex-wrap: nowrap;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}

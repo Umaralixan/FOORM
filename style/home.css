@@ -1,0 +1,25 @@
+.button {
+  width: 150px;
+  height: 40px;
+  margin-left: 1115px;
+  border: none;
+  background-color: green;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+}
+.h1 {
+  text-align: center;
+  color: blue;
+}
+.h3 {
+  color: red;
+}
+.wrapperr {
+  background-image: url(../img/img__1.webp);
+  flex-wrap: nowrap;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
